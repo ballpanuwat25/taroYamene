@@ -1,0 +1,150 @@
+a {
+    color: #8FCC5F;
+}
+
+label {
+    margin-left: 1rem;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #8FCC5F;
+}
+
+p {
+    color: #fff;
+}
+
+h3 {
+    color: #8FCC5F;
+    margin-bottom: .5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #8FCC5F;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+    margin-top: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #8FCC5F;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url(../../assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.form--container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: rgba(16, 16, 16, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.display--container {
+    display: flex;
+
+    padding: 2rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.form__group {
+    margin-bottom: 1rem;
+}
+
+.form__control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid #8FCC5F;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #8FCC5F;
+    text-transform: uppercase;
+    background-color: #202020;
+}
+
+.form__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    width: 450px;
+    height: 100%;
+}
+
+.radio__control {
+    margin-right: .5rem;
+}
+
+.result__card {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #8FCC5F;
+    margin-bottom: .5rem;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 2px 2px 0 rgba(17, 197, 107, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@media screen and (max-width: 768px) {
+    .display--container {
+        display: none;
+    }
+
+    .form--container {
+        width: 100%;
+    }
+
+    .form__content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 730px) and (max-width: 768px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    p,
+    label {
+        font-size: 0.75rem;
+    }
+}

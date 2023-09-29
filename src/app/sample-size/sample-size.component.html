@@ -1,0 +1,64 @@
+<div class='container'>
+    <div class='form--container'>
+        <div class='form__content'>
+            <form (ngSubmit)="onSubmit()" #sampleSizeForm="ngForm">
+                <div class="form__group">
+                    <h1>Population Size</h1>
+                    <input type="number" class="form__control" id="populationSize" name="populationSize"
+                        [(ngModel)]="populationSize" required>
+                </div>
+                <h1>Sampling Error</h1>
+                <div class='form__card'>
+                    <div class="form__group">
+                        <input class='radio__control' id='se1' name='samplingError1' [(ngModel)]='samplingError'
+                            value='1' type='radio'>
+                        <label for='samplingError'>Sampling Error: 1% </label>
+                    </div>
+                    <div class="form__group">
+                        <input class='radio__control' id='se2' name='samplingError2' [(ngModel)]='samplingError'
+                            value='2' type='radio'>
+                        <label for='samplingError'>Sampling Error: 2% </label>
+                    </div>
+                    <div class="form__group">
+                        <input class='radio__control' id='se3' name='samplingError3' [(ngModel)]='samplingError'
+                            value='3' type='radio'>
+                        <label for='samplingError'>Sampling Error: 3% </label>
+                    </div>
+                    <div class="form__group">
+                        <input class='radio__control' id='se4' name='samplingError4' [(ngModel)]='samplingError'
+                            value='4' type='radio'>
+                        <label for='samplingError'>Sampling Error: 4% </label>
+                    </div>
+                    <div class="form__group">
+                        <input class='radio__control' id='se5' name='samplingError5' [(ngModel)]='samplingError'
+                            value='5' type='radio'>
+                        <label for='samplingError'>Sampling Error: 5% </label>
+                    </div>
+                    <div class="form__group">
+                        <input class='radio__control' id='se10' name='samplingError10' [(ngModel)]='samplingError'
+                            value='10' type='radio'>
+                        <label for='samplingError'>Sampling Error: 10% </label>
+                    </div>
+                </div>
+                <button type="submit" [disabled]="!sampleSizeForm.form.valid">Submit</button>
+            </form>
+
+            <div class='result__card'>
+                <h3>Result</h3>
+                <p>sampleSize: {{sampleSize}} </p>
+                <p>populationSize: {{populationSize}} </p>
+                <p>samplingError: {{samplingError}} %</p>
+                <p>conditionDesc: {{conditionDesc}} </p>
+            </div>
+
+            <div class='card__footer'>
+                <p>Created by <a href="https://github.com/ballpanuwat25">ballpanuwat25</a> 👽 </p>
+            </div>
+        </div>
+    </div>
+    <div class='container display--container'>
+            <div class='name'>
+                <p>6321606294 Panuwat Pisavong</p>
+            </div>  
+    </div>
+</div>
