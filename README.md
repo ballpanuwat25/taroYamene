@@ -17,23 +17,23 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
 
-   `git clone https://github.com/yourusername/taro-yamene-sampling-error-calculator.git` 
+   `git clone https://github.com/ballpanuwat25/taroYamene.git` 
 
 2.  Navigate to the project directory:
     
-    shellCopy code
+    Copy code
     
-    `cd taro-yamene-sampling-error-calculator` 
+    `cd taroYamene` 
     
 3.  Install the dependencies:
     
-    shellCopy code
+    Copy code
     
     `npm install` 
     
 4.  Start the development server:
     
-    shellCopy code
+    Copy code
     
     `ng serve` 
     
