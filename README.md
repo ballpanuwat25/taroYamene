@@ -1,27 +1,74 @@
-# EX6321606294
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+# Taro Yamene Sampling Error Calculator
 
-## Development server
+This web application is designed to calculate sampling errors using Taro Yamene's solution. It provides a user-friendly interface for inputting data and obtaining accurate sampling error calculations.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **User-Friendly Interface:** A user-friendly interface that makes it easy to input data and obtain sampling error calculations.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Taro Yamene's Solution:** The application uses Taro Yamene's solution to calculate sampling errors, ensuring accuracy in your calculations.
 
-## Build
+- **Angular Framework:** Built with Angular, a popular front-end framework, ensuring a responsive and efficient user experience.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+To run this application locally, follow these steps:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
 
-## Running end-to-end tests
+   `git clone https://github.com/yourusername/taro-yamene-sampling-error-calculator.git` 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2.  Navigate to the project directory:
+    
+    shellCopy code
+    
+    `cd taro-yamene-sampling-error-calculator` 
+    
+3.  Install the dependencies:
+    
+    shellCopy code
+    
+    `npm install` 
+    
+4.  Start the development server:
+    
+    shellCopy code
+    
+    `ng serve` 
+    
+5.  Open your web browser and go to [http://localhost:4200](http://localhost:4200/) to access the application.
+    
 
-## Further help
+## Usage
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1.  Enter the required data, including sample size, population size, and confidence level.
+    
+2.  Click the "Calculate" button to obtain the sampling error.
+    
+3.  The sampling error will be displayed on the screen, providing you with the accuracy of your sample.
+    
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1.  Fork the repository.
+    
+2.  Create a new branch for your feature or bug fix.
+    
+3.  Make your changes and commit them.
+    
+4.  Create a pull request with a clear description of your changes.
+    
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+If you have any questions or feedback, feel free to reach out to us:
+
+-   Email: [ballpanuwat25@gmail.com](mailto:ballpanuwat25@gmail.com)
+-   GitHub: [https://github.com/ballpanuwat25](https://github.com/ballpanuwat25)
